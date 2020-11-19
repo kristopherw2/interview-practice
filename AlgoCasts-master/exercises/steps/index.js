@@ -18,17 +18,16 @@
 //       '####'
 
 function steps(n, counter = 1) {
-  
-  if (counter >= n) {
-      return;
-  }
-  
-  let hash = '#'
-  let space = ' '
+    if (counter >= n) {
+        return;
+    }
 
-  let stairs = hash.repeat(counter).concat(space.repeat(n - counter));
-  console.log(stairs);
-  //steps(n, counter = counter)
+    let hash = "#";
+    let space = " ";
+
+    let stairs = hash.repeat(counter).concat(space.repeat(n - counter));
+    console.log(stairs);
+    //steps(n, counter = counter)
 }
 
 module.exports = steps;

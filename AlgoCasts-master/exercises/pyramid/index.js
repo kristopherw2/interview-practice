@@ -14,6 +14,16 @@
 //       ' ### '
 //       '#####'
 
-function pyramid(n) {}
+function pyramid(n) {
+  let columnLength = Math.floor((n * 2) - 1)
+  console.log(columnLength);
+
+  for(let row = 0; row < n; row++) {
+    let step = ' ';
+    for(let column = 0; column < columnLength; column++){
+
+    }
+  }
+}
 
 module.exports = pyramid;
